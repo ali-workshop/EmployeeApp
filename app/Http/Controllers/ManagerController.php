@@ -32,7 +32,7 @@ class ManagerController extends Controller
         ]);
 
       User::create($NewRecord);
-      return redirect()->route('manager.dashboard')->with('success','Account Added Successfully..');#make wiht this meesake link for see the table 
+      return redirect()->route('manager.dashboard')->with('success','Account Added Successfully..');#make wiht this  link for see the table 
     }
 
     // public function edit($user){
